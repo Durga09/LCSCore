@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddMembersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/max_score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="Max Score : "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:padding="3dp"/>
+        <EditText
+            android:id="@+id/max_score"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="Max Score"
+            android:text="100"
+            android:maxLength="4"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/member1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 1"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 2"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/membe3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 3"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 4"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 5"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 6"
+            android:maxLength="4"
+            android:textSize="18sp"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 7"
+            android:textSize="18sp"
+
+            android:maxLength="4"
+
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/member8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:maxLength="4"
+            android:textSize="18sp"
+            android:hint="Member 8"
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+
+        <Button
+            android:id="@+id/add_members"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="Add"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="250dp"></Button>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

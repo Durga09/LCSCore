@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddMembersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/member1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 1"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+        <EditText
+            android:id="@+id/member1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 1"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:inputType="numberSigned"
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 2"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+        <EditText
+            android:id="@+id/member2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 2"
+            android:textSize="16dp"
+
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member3_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 3"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+        <EditText
+            android:id="@+id/member3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 3"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member4_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 4"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/member4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 4"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member5_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 5"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/member5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 5"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member6_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 4"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/member6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 6"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member7_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 7"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/member7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 7"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textSize="16dp"
+
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+        <TextView
+            android:id="@+id/member8_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member 8"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/member8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Member 8"
+            android:inputType="numberSigned"
+            android:textSize="16dp"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:padding="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="400dp">
+            <Button
+                android:id="@+id/view_values"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="View Scores"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"></Button>
+        <Button
+            android:id="@+id/submit_values"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="#FFFFFF"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
